@@ -1,5 +1,5 @@
 {
-  "name": "react-boiler-plate",
+  "name": "youtube clone",
   "version": "1.0.0",
   "description": "react boiler plate",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
-  "author": "John ahn",
+  "author": "hkseo",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
