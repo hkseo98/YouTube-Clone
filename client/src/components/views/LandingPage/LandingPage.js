@@ -24,7 +24,7 @@ export default function LandingPage() {
     const renderCard = Video.map((video, index) => {
         return (
             <Col lg={6} md={8} xs={24} key={index}>
-                <a href={`/video.post/${video._id}`}>
+                <a href={`/video/${video._id}`}>
                     <div style={{ position: 'relative'}}>
                         go to video
                     </div>
